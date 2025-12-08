@@ -34,3 +34,5 @@ Bake at 350F for 35-40 minutes.
 
 ## Comments
 12/2/2025: Attempted to make the dough today. Surface burned faster than normal. 1/2 tsp wasn't enough. The bread doesn't have enough flavor and I can't taste the egg at all. I'm increasing this to 2 tsp for next time. 
+
+12/5/2025: I added more salt but I still can't really taste the bread that strongly. I'm not sure what I'm missing; do I need to mix it for longer? I mixed nail-sized chocolate into it and the chocolate tasted fantastic and mixed well into the dough.

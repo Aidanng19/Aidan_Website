@@ -28,3 +28,7 @@ Ginger
 5. Add vegetables, dry seasonings, and water in the pressure cooker. Add enough water to cover the meat, but not the veggies. The fat will leech out of the oxtail and create soup, so you don't need stock.
 6. Set the pressure cooker to high and let it cook for 45 minutes. Allow the pressure cooker to naturally release. This will take 1.5 hours.
 7. Let cool and store in plastic containers.
+
+## Comments
+12/7/2025: I added much more water to it this time because the soup was so good last time and I wanted to drink it longer. 
+And exactly as expected, it diluted the flavor. The potatoes and carrots tasted less flavorful. 
