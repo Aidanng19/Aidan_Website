@@ -535,6 +535,14 @@ header .btn-group {
   # Recipe formatting
 \*-----------------------------------*/
 
+.recipe_image {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: auto; /* centers the image */
+  width: 40%;
+}
+
 .recipe_container { /* this doesn't include the margins on the left and right, so I can use the whole page */
   margin-inline: auto;
   margin: auto; /* fallback for margin-inline */
@@ -558,11 +566,12 @@ header .btn-group {
 
 .hr {
   font-style: italic;
+  text-align: left;
 }
 
 .recipe_ingredients { /* total div is the width of the screen */
   padding: 10px; /* space between content and edge of card */
-  text-align: left;
+  text-align: center;
   display: inline-block;
   margin: 0 auto;
   width: 100%;
@@ -572,10 +581,20 @@ header .btn-group {
 
 .recipe_ingredients div{ /* individual divs in recipe is only 10% of the total width */
   padding: 10px; /* space between content and edge of card */
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
+  width: 40%;
+  position: relative;
+}
+
+.recipe_ingredients div div{ /* individual divs in recipe is only 10% of the total width */
+  padding: 10px; /* space between content and edge of card */
   text-align: left;
   display: inline-block;
   margin: 0 auto;
-  width: 40%;
+  width: 80%;
   position: relative;
 }
 
@@ -684,14 +703,6 @@ footer .wrapper { text-align: center; }
     height: 100%;
     object-fit: fill;
     border-radius: 5px;
-  }
-
-  .recipe_image {
-    display: block;
-    overflow: hidden;
-    border-radius: 5px;
-    margin: auto; /* centers the image */
-    width: 50%;
   }
 
   .blog-banner-img {
