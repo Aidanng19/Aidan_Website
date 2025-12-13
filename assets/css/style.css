@@ -550,6 +550,8 @@ header .btn-group {
 }
 
 .recipe_header  {
+  color: var(--foreground-primary); /* This shifts color in dark mode */
+    display: block;
   text-align: left;
   font-size: var(--fs-1);
   font-weight: 900;
@@ -557,6 +559,7 @@ header .btn-group {
 }
 
 .recipe_subheader  {
+  color: var(--foreground-primary);
   text-align: left;
   font-size: var(--fs-1);
   font-weight: 500;
@@ -565,7 +568,10 @@ header .btn-group {
 }
 
 .hr {
+  color: var(--foreground-primary);
   font-style: italic;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
   text-align: left;
 }
 
@@ -590,6 +596,7 @@ header .btn-group {
 }
 
 .recipe_ingredients div div{ /* individual divs in recipe is only 10% of the total width */
+  color: var(--foreground-primary);
   padding: 10px; /* space between content and edge of card */
   text-align: left;
   display: inline-block;
@@ -599,17 +606,13 @@ header .btn-group {
 }
 
 .recipe_notes{
+  color: var(--foreground-primary);
   padding: 10px; /* space between content and edge of card */
   text-align: left;
   display: block;
   margin: 0 auto; /* 0 auto centers my container*/
   width: 80%;
   position: relative;
-}
-
-.recipe_divider { /* might be outdated */
-  border-left: 6px black;
-  height: 500px;
 }
 
 /*-----------------------------------*\ 
