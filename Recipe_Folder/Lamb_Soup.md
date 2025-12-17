@@ -31,3 +31,5 @@ Olive Oil
 
 ## Notes
 11/22/2025: I increased the cooking time to 30 minutes because I could see gelatin when I cooked for 15 minutes last time. I didn't add broth because I wanted to see how tasteful my broth would be without help. I could see scum at the top of the soup, so try soaking or pre-boiling the meat beforehand. My lamb wasn't dry and fell off the bone, so I like this cooking time more. The soup tasted pretty good, not too sour, so I won't be adding broth in the future.
+
+12/114/2025: The soup tastes a little sour. But I added Worcestershire sauce so that should make it more sour. I don't know if this soup is supposed to be sour. So I need to taste this at a restaurant before I make further changes to this recipe.
