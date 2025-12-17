@@ -28,8 +28,8 @@
       <nav class="navbar">
 
         <a href="#"> <!-- Changes the header's logo depending on light or dark mode -->
-          <img src="../assets/images/logo-light.png" alt="SimpleBlog logo" width="150" class="logo-light">
-          <img src="../assets/images/logo-dark.png" alt="SimpleBlog logo" width="150" class="logo-dark">
+          <img src="../assets/images/logo-light.png" alt="Light Image" width="150" class="logo-light">
+          <img src="../assets/images/logo-dark.png" alt="Dark Image" width="150" class="logo-dark">
         </a>
 
         <div class="btn-group">
@@ -70,51 +70,11 @@
 
         </div>
 
-        <div class="mobile-nav"> <!-- What does this do?-->
+        <div class="mobile-nav"> <!-- This allows dark to light toggling-->
 
           <button class="nav-close-btn">
             <ion-icon name="close-outline"></ion-icon>
           </button>
-
-          <div class="wrapper">
-
-            <p class="h3 nav-title">Main Menu</p>
-
-            <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">About Me</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Where is this</a>
-              </li>
-            </ul>
-
-          </div>
-
-          <div>
-
-            <p class="h3 nav-title">Topics</p>
-
-            <ul>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Database</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Accessibility</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#" class="nav-link">Web Performance</a>
-              </li>
-            </ul>
-
-          </div>
 
         </div>
 
@@ -124,118 +84,62 @@
 
   </header>
 
-
-
   <main>
     <div class="main">
 
-          <div class="container">
+          <h1 class="recipe_header">
+              Popcorn Chicken
+          </h1>
 
-            <div class="recipes">
+          <h2 class="recipe_subheader">
+            WIP
+          </h2>
 
-              <h2 class="h2">List of Recipes</h2>
-
-              <div class="blog-card-group"> 
-                <!-- 
-                Popcorn Chicken 
-                 -->
-
-                <li><div class="recipe-card"> 
-
-                  <div class="blog-card-banner">
-                    <img src="../assets/images/Ghibli_Pan.png" alt="Temporary Image of popcorn chicken"
-                      class="recipe-banner-img">
-                  </div>
-
-                  <div class="blog-content-wrapper">
-
-                    <h3>
-                      <a href="../Recipe_Folder/Popcorn_Chicken.html" class="h3">
-                        Popcorn Chicken
-                      </a>
-                    </h3>
-
-                    <p class="blog-text">
-                      Time: 1 Hour
-                    </p>
-                  </div>
-
-                </div></li>
-
-              </div>
+          <div class="recipe_container">
+            <div class="recipe_image">
+              <img src="../Recipe_Folder/images/Popcorn_Chicken.png" alt="Temporary Image of Popcorn Chicken}"
+                      class="blog-banner-img">
             </div>
+                <div class="recipe_ingredients">
+                    <div>
+                        <div>
+                          <h3 class="hr">Ingredients</h3>
+                          Chicken Breast</br>
+                          1 Egg</br>
+                        </div>
+
+                        <div>
+                         <h3 class="hr">Dry Seasonings</h3>
+                          Salt</br>
+                          Black Pepper</br>
+                          Paprika</br>
+                          Garlic Powder</br>
+                          Onion Powder</br>
+                        </div>
+
+                      </div>
+
+                    <div>
+                        <div>
+                        <h3 class="hr">Instructions</h3>
+                        1. Cut the chicken breast into 1-inch cubes.</br>
+                        2. Season the chicken with the dry seasoning.</br>
+                        3. Dip the chicken in flour.</br>
+                        4. Dredge the chicken in egg.</br>
+                        5. Dip the chicken in flour again..</br>
+                        6. Fry chicken in 2-inches of oil for 7-8 minutes.</br>
+                        </div>
+                    </div>
+                </div>
+                    <div class="recipe_notes">
+                        <div>
+                          <h3 class="hr">Notes</h3>
+                        </div>
+                      
+                    </div>
           </div>
     </div>
   </main>
-
-  <!--
-    - #FOOTER
-  -->
-
-  <footer>
-
-    <div class="container">
-
-      <div class="wrapper">
-
-        <a href="#" class="footer-logo">
-          <img src="../assets/images/logo-light.png" alt="SimpleBlog Logo" width="150" class="logo-light">
-          <img src="../assets/images/logo-dark.png" alt="SimpleBlog Logo" width="150" class="logo-dark">
-        </a>
-
-        <p class="footer-text">
-          Learn about Web accessibility, Web performance, and Database management.
-        </p>
-
-      </div>
-
-      <div class="wrapper">
-
-        <p class="footer-title">Quick Links</p>
-
-        <ul>
-
-          <li>
-            <a href="#" class="footer-link">Advertise with us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Contact Us</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <div class="wrapper">
-
-        <p class="footer-title">Legal Stuff</p>
-
-        <ul>
-
-          <li>
-            <a href="#" class="footer-link">Privacy Notice</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Cookie Policy</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Terms Of Use</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
-  </footer>
 
   <!--
     - custom js link, this allows switching from light to dark
