@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- header -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamb Soup</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container"> 
+
+      <nav class="navbar">
+
+        <a href="#"> <!-- Changes the header's logo depending on light or dark mode -->
+          <img src="../assets/images/logo-light.png" alt="Light Image" width="150" class="logo-light">
+          <img src="../assets/images/logo-dark.png" alt="Dark Image" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/Recipes.html" class="nav-link">Recipes</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav"> <!-- This allows dark to light toggling-->
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+    <div class="main">
+
+          <h1 class="recipe_header">
+            Lamb Soup
+          </h1>
+
+          <h2 class="recipe_subheader">
+            Soup
+          </h2>
+
+          <div class="recipe_container">
+            <div class="recipe_image">
+              <img src="../Recipe_Folder/images/Lamb_Soup.png" alt="Temporary Image of Lamb Soup"
+                      class="blog-banner-img">
+            </div>
+                <div class="recipe_ingredients">
+                    <div>
+                        <div>
+                          <h3 class="hr">Ingredients</h3>
+                          Lamb Chunk</br>
+                          Carrots</br>
+                          Potatoes</br>
+                          Onions</br>
+                          Celery</br>
+                        </div>
+
+                        <div>
+                         <h3 class="hr">Dry Seasonings</h3>
+                          Salt</br>
+                          Black Pepper</br>
+                          Bay Leaves</br>
+                          Italian Seasoning</br>
+                          Garlic</br>
+                          Ginger</br>
+                          Butter</br>
+                        </div>
+
+                        <div>
+                         <h3 class="hr">Wet Seasonings</h3>
+                          Worcestershire Sauce</br>
+                          Shaoxing Wine</br>
+                        </div>
+
+                      </div>
+
+                    <div>
+                        <div>
+                        <h3 class="hr">Instructions</h3>
+                        1. Oil the bottom of the instant pot with butter. Put the ingredients in and saute on high with dry seasonings to force the flavor into the ingredients.</br>
+                        2. Pour in the wet seasonings and water until it almost covers the ingredients. You want some of it uncovered because the vegetables will release water contents as it cooks.</br>
+                        3. Mix up the ingredients so they're staggered.</br>
+                        4. Pressure cook for 30 minutes and naturally release. This take roughly 2 hours total. </br>
+                        </div>
+                    </div>
+                </div>
+                    <div class="recipe_notes">
+                        <div>
+                          <h3 class="hr">Notes</h3>
+                          <b>11/22/2025</b>: I increased the cooking time to 30 minutes because I could see gelatin when I cooked for 15 minutes last time. 
+                                             I didn't add broth because I wanted to see how tasteful my broth would be without help. I could see scum at the top of the soup, so try soaking or pre-boiling the meat beforehand. 
+                                             My lamb wasn't dry and fell off the bone, so I like this cooking time more. The soup tasted pretty good, not too sour, so I won't be adding broth in the future.
+                          <b>12/14/2025</b>: The soup tastes a little sour. But I added Worcestershire sauce so that should make it more sour. I don't know if this soup is supposed to be sour. So I need to taste this at a restaurant before I make further changes to this recipe.
+                          <b>1/26/2026</b>: My soup is tasted very weak and too watery. I think my water proportions are too high or I'm adding too little lamb. I might have to add broth or more lamb.
+                        </div>
+                      
+                    </div>
+          </div>
+    </div>
+  </main>
+
+  <!--
+    - custom js link, this allows switching from light to dark
+  -->
+  <script src="../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>

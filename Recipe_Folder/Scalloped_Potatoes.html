@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- header -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scalloped Potatoes</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container"> 
+
+      <nav class="navbar">
+
+        <a href="#"> <!-- Changes the header's logo depending on light or dark mode -->
+          <img src="../assets/images/logo-light.png" alt="Light Image" width="150" class="logo-light">
+          <img src="../assets/images/logo-dark.png" alt="Dark Image" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/Recipes.html" class="nav-link">Recipes</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav"> <!-- This allows dark to light toggling-->
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+    <div class="main">
+
+          <h1 class="recipe_header">
+            Scalloped Potatoes
+          </h1>
+
+          <h2 class="recipe_subheader">
+            Potato
+          </h2>
+
+          <div class="recipe_container">
+            <div class="recipe_image">
+              <img src="../Recipe_Folder/images/Scalloped_Potatoes.png" alt="Temporary Image of Scalloped Potatoes"
+                      class="blog-banner-img">
+            </div>
+                <div class="recipe_ingredients">
+                    <div>
+                        <div>
+                          <h3 class="hr">Ingredients</h3>
+                          Potatoes</br>
+                          Onions</br>
+                          3 tbps unsalted butter or beef oil</br>
+                          3 tbps all-purpose flour</br>
+                          2 cups whole milk</br>
+                          1.5 cups cheese</br>
+                          Garlic</br>
+                        </div>
+
+                        <div>
+                         <h3 class="hr">Dry Seasonings</h3>
+                          Salt</br>
+                          Black Pepper</br>
+                        </div>
+
+                    <div>
+                        <div>
+                        <h3 class="hr">Instructions</h3>
+                        1. Slice the potatoes and onions into thin slices and lay them in the glass oven tray. Season the potatoes with dry seasonings. </br>
+                        2. Melt butter on a pan. Mix in the flour and salt while stirring until blended.</br>
+                        3. Pour in milk and stir until mixture is thickened. It's important this thickens so it becomes a sauce and not a liquid.</br>
+                        4. Stir in the cheese until it is the correct consistency for the sauce.</br>
+                        5. Pour the cheese sauce over the potatoes and cover the oven tray with aluminum foil. </br>
+                        6. Bake at 400F for 30 minutes covered.</br>
+                        7. Bake at 400F for another 30 minutes uncovered. This creates the crust on top of the bake.</br>
+                        </div>
+                    </div>
+                </div>
+                    <div class="recipe_notes">
+                        <div>
+                          <h3 class="hr">Notes</h3>
+                          <b>11/19/2025</b>: First attempt: I crammed my pan so the liquid didn't cover the potatoes, therefore undercooking half of my potatoes. 
+                                             Also I added too much milk so there was too much liquid and it didn't boil down properly. 
+                                             I didn't mix the sauce properly beforehand, so the milk and cheese weren't evenly mixed. 
+                                             I should've mixed everything at once, using the milk as a base, to form a roux.
+                        </div>
+                      
+                    </div>
+          </div>
+    </div>
+  </main>
+
+  <!--
+    - custom js link, this allows switching from light to dark
+  -->
+  <script src="../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
