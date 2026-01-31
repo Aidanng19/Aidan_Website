@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- header -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolo Bao</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container"> 
+
+      <nav class="navbar">
+
+        <a href="#"> <!-- Changes the header's logo depending on light or dark mode -->
+          <img src="../assets/images/logo-light.png" alt="Light Image" width="150" class="logo-light">
+          <img src="../assets/images/logo-dark.png" alt="Dark Image" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/Recipes.html" class="nav-link">Recipes</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav"> <!-- This allows dark to light toggling-->
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+    <div class="main">
+
+          <h1 class="recipe_header">
+            Bolo Bao
+          </h1>
+
+          <h2 class="recipe_subheader">
+            Hong Kong Pineapple Bun
+          </h2>
+
+          <div class="recipe_container">
+            <div class="recipe_image">
+              <img src="../Recipe_Folder/images/Bolo_Bao.png" alt="Temporary Image of Bolo Bao"
+                      class="blog-banner-img">
+            </div>
+                <div class="recipe_ingredients">
+                    <div>
+                        <div>
+                          <h3 class="hr">Dough Ingredients</h3>
+                          3.5 cups All-Purpose Flour</br>
+                          7 tbsp all-purpose flour (cake flour)</br>
+                          1 tbsp cornstarch (cake flour)</br>
+                          2.25 tsp Yeast</br>
+                          1.5 tsp Kosher Salt</br>
+                          1/3 cup sugar</br>
+                          2/3 cups heavy cream</br>
+                          1 egg</br>
+                          1 cup room temp milk</br>
+                          4 tbsp butter</br>
+                        </div>
+
+                        <div>
+                         <h3 class="hr">Topping Ingredients</h3>
+                          1/4 cup dry milk powder</br>
+                          1.25 cups all-purpose flour</br>
+                          1/2 tsp baking soda</br>
+                          1/4 tsp baking powder</br>
+                          2/3 cups superfine sugar</br>
+                          4 tbsp butter</br>
+                          2 tbps milk</br>
+                          1 egg yolk</br>
+                          1/8 tsp vanilla extract</br>
+                        </div>
+
+                        <div>
+                          <h3 class="hr">Finishings</h3>
+                          1 egg yolk</br>
+                        </div>
+
+                      </div>
+
+                    <div>
+                        <div>
+                        <h3 class="hr">Making the dough</h3>
+                        1. Start by mixing the heavy cream, milk, egg, sugar, cake flour, bread flour, yeast, and salt (in that order). Mix for 15 minutes.</br>
+                        2. Proof the dough for an hour in a warm area.</br>
+                        3. Mix for another 5 minutes to get rid of air bubbles. Cut the dough into equal pieces and place on a baking sheet. </br>
+                        4. Cover the buns and let them rise for another hour.</br>
+                        </div>
+
+                        <div>
+                        <h3 class="hr">Making the topping</h3>
+                        1. Mix dry milk powder, flour, baking soda, and superfine sugar. Make sure there are no lumps.</br>
+                        2. Add butter, milk, egg yolk, and vanilla. Mix everything until it becomes a dough.</br>
+                        3. Separate your topping into equal pieces and flatten into a circle.</br>
+                        4. Place each circle on top of a bun.</br>
+                        </div>
+
+                        <div>
+                        <h3 class="hr">Baking the buns</h3>
+                        1. Preheat the oven to 350F. Brush the top of each bun with egg yolk and bake for 12-13 minutes.</br>
+                        </div>
+                    </div>
+                </div>
+                    <div class="recipe_notes">
+                        <div>
+                          <h3 class="hr">Notes</h3>
+                          <b>12/2/2025</b>: Attempted to make the dough today. Surface burned faster than normal. 1/2 tsp wasn't enough. 
+                          The bread doesn't have enough flavor and I can't taste the egg at all. I'm increasing this to 2 tsp for next time. 
+                        </div>
+                      
+                    </div>
+          </div>
+    </div>
+  </main>
+
+  <!--
+    - custom js link, this allows switching from light to dark
+  -->
+  <script src="../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
