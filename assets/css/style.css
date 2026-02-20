@@ -615,6 +615,19 @@ header .btn-group {
 }
 
 /*-----------------------------------*\ 
+  # Recipe formatting
+\*-----------------------------------*/
+.gardening_sections { /* total div is the width of the screen */
+  padding: 10px; /* space between content and edge of card */
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+
+/*-----------------------------------*\ 
   #FOOTER
 \*-----------------------------------*/
 
