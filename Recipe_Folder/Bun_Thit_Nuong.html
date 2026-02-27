@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- header -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bun Thit Nuong</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container"> 
+
+      <nav class="navbar">
+
+        <a href="#"> <!-- Changes the header's logo depending on light or dark mode -->
+          <img src="../assets/images/logo-light.png" alt="Light Image" width="150" class="logo-light">
+          <img src="../assets/images/logo-dark.png" alt="Dark Image" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/About_Me.html" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/Recipes.html" class="nav-link">Recipes</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/Gardening.html" class="nav-link">Gardening</a>
+            </li>
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav"> <!-- This allows dark to light toggling-->
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+    <div class="main">
+
+          <h1 class="recipe_header">
+            Bun Thit Nuong
+          </h1>
+
+          <h2 class="recipe_subheader">
+            Vietnamese Vermicelli Noodle Bowl
+          </h2>
+
+          <div class="recipe_container">
+            <div class="recipe_image">
+              <img src="../Recipe_Folder/images/Bun_Thit_Nuong.png" alt="Temporary Image of Bun Thit Nuong"
+                      class="blog-banner-img">
+            </div>
+                <div class="recipe_ingredients">
+                    <div>
+                        <div>
+                          <h3 class="hr">Ingredients</h3>
+                            Vermicelli Noodles</br>
+                            Carne Asada/Pork Tenderloin/Chicken thigh</br>
+                            Onion</br>
+                            Green Onions</br>
+                            Bean Sprouts</br>
+                            Mushroom</br>
+                            Bell Pepper</br>
+                            Chile Peppers</br>
+                            Lime</br>
+                            Toasted Sesame Seeds</br>
+                        </div>
+
+                        <div>
+                          <h3 class="hr">Meat Marinade</h3>
+                            Brown Sugar (if using pork)</br>
+                            Fish Sauce</br>
+                            Light Soy Sauce</br>
+                            Rice Vinegar</br>
+                            Soy Sauce</br>
+                            Garlic</br>
+                            Sesame Oil</br>
+                            1 Lime</br>
+                        </div>
+
+                      </div>
+
+                    <div>
+                        <div>
+                          <h3 class="hr">Instructions</h3>
+                            1. Marinate the meat overnight.</br>
+                            2. Soak the noodles in hot water for 5-10 minutes. Vermicelli will absorb a lot of water so add a lot of water. Don't overcook or it'll break apart.</br>
+                            3. Heat up a pan and throw in the meat.</br>
+                            4. When the meat is browned, add the vegetables and noodles.</br>
+                            5. Sear the meat and add the vegetables and rice noodles. Stir it around so that everything is covered with the sauce.</br>
+                            6. Stir it a few times to ensure total coverage and turn off the heat when the dish is almost cooked.</br>
+                            7. Finish with toasted sesame seeds.</br>
+                        </div>
+                    </div>
+                </div>
+                    <div class="recipe_notes">
+                        <div>
+                          <h3 class="hr">Notes</h3>
+                          <b>2/26/2026</b>: The vermicelli absorbed a lot more water than I expected and I overcooked it. Next time, add excess water and cook for a shorter time. It will finish cooking in the pan.
+                                            Meat marinade tasted good.</br>
+                        </div>
+                      
+                    </div>
+          </div>
+    </div>
+  </main>
+
+  <!--
+    - custom js link, this allows switching from light to dark
+  -->
+  <script src="../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
