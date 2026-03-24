@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- header -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kladdkaka</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container"> 
+
+      <nav class="navbar">
+
+        <a href="#"> <!-- Changes the header's logo depending on light or dark mode -->
+          <img src="../assets/images/logo-light.png" alt="Light Image" width="150" class="logo-light">
+          <img src="../assets/images/logo-dark.png" alt="Dark Image" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/About_Me.html" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/Recipes.html" class="nav-link">Recipes</a>
+            </li>
+
+            <li>
+              <a href="../Subpages/Gardening.html" class="nav-link">Gardening</a>
+            </li>
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav"> <!-- This allows dark to light toggling-->
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+    <div class="main">
+          <h1 class="recipe_header">
+            Kladdkaka
+          </h1>
+
+          <h2 class="recipe_subheader">
+            Swedish Sticky Chocolate Cake
+          </h2>
+
+          <div class="recipe_container">
+            <div class="recipe_image">
+              <img src="../Recipe_Folder/images/Kladdkaka.png" alt="Temporary Image of Kladdkaka"
+                      class="blog-banner-img">
+            </div>
+                <div class="recipe_ingredients">
+                    <div>
+                        <div>
+                          <h3 class="hr">Ingredients</h3>
+                            3 eggs</br>
+                            11 tbsp butter</br>
+                            1.25 cups sugar</br>
+                            1 cup all-purpose flour</br>
+                            1 tsp vanilla extract</br>
+                            6 tbsp cocoa powder</br>
+                            Powdered sugar</br>
+                        </div>
+                      </div>
+
+                    <div>
+                        <div>
+                          <h3 class="hr">Instructions</h3>
+                            1. Melt the butter and let it cool a bit.</br>
+                            2. Add the sugar and mix until combined.</br>
+                            3. Beat the eggs in a separate bowl. Slowly add the beaten eggs until the batter is formed.</br>
+                            3. Mix the flour and cocoa powder and add to the liquid batter. Add vanilla extract once incorporated.</br>
+                            4. Pour the batter into a tray and bake at 325F for 20 minutes. The cake should be gooey in the center.</br>
+                            5. Once the cake is cooled, sprinkle with powdered sugar.</br>
+                        </div>
+                    </div>
+                </div>
+                    <div class="recipe_notes">
+                        <div>
+                          <h3 class="hr">Notes</h3>
+                            <b>12/02/2025</b>: 
+                        </div>
+                      
+                    </div>
+          </div>
+    </div>
+  </main>
+
+  <!--
+    - custom js link, this allows switching from light to dark
+  -->
+  <script src="../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
