@@ -398,7 +398,9 @@ header .btn-group {
   text-align: center;
 }
 
-.blog-card-group { margin-bottom: 30rem; } /* space under each divider */
+.blog-card-group {
+  margin-bottom: 30rem;
+} /* space under each divider */
 
 .blog-card {
   background: var(--background-primary);
@@ -409,7 +411,7 @@ header .btn-group {
   transition: 0.25s ease;
 }
 
-.recipe-card {
+.recipe-card { /*each individual card in recipes subpage*/
   background: var(--background-primary);
   padding: 10px; /* space between content and edge of card */
   float: left;
@@ -422,6 +424,11 @@ header .btn-group {
   bottom: 0;
 }
 
+.recipe-card-group {
+  margin-bottom: 30rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+} /* space under each divider */
 
 /*#recipe-card li a:hover:not(.header) {
   background-color: #eee; /* Add a hover effect to all links, except for headers 
@@ -531,7 +538,7 @@ header .btn-group {
 .aside { display: none; }
 
 /*-----------------------------------*\ 
-  # Recipe formatting
+  # Recipe page formatting
 \*-----------------------------------*/
 
 .recipe_image {
@@ -615,7 +622,7 @@ header .btn-group {
 }
 
 /*-----------------------------------*\ 
-  # Recipe formatting
+  # Gardening formatting
 \*-----------------------------------*/
 .gardening_sections { /* total div is the width of the screen */
   padding: 10px; /* space between content and edge of card */
@@ -1064,6 +1071,11 @@ footer .wrapper { text-align: center; }
   .main .recipe_container {
     display: grid;
     gap: 60px;
+
+  .main .recipe_card_divider {
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
   }
 
